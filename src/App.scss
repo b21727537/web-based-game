@@ -1,0 +1,164 @@
+@import "./breakpoints.scss";
+
+$secondary: #f50057;
+$purple: #ae76a6;
+$blue: #a3c3d9;
+$lOrange: #f8bd7f;
+$gray: #efefef;
+$red: #E53935;
+
+.App {
+  margin: auto;
+  .avatar {
+    background-color: $secondary;
+  }
+}
+
+.signInRoot {
+  height: 100vh;
+}
+
+.signInPaper {
+  margin: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .form {
+    width: 100%;
+    margin: 4px;
+  }
+  .box {
+    margin-top: 20px;
+  }
+}
+.dialogRoot .MuiDialog-paperWidthSm {
+  overflow-x: hidden;
+}
+.userMailList {
+  max-height: 32vh;
+  width: 50vh;
+  white-space: initial; 
+  display:inline-block;
+  word-wrap:break-word;
+  overflow: auto;
+}
+//Related with Calendar Event Borders
+.rbc-events-container {
+  margin: 0 !important;
+}
+.rbc-day-slot .rbc-event {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-radius: 6px !important;
+}
+.rbc-day-slot .rbc-events-container {
+  margin-right: 0px;
+}
+.MuiDialogContent-root {
+  flex: 1 1 auto;
+  padding: 8px 24px;
+}
+// End of Calendar Event Borders
+
+//Manage Co-Working Edit
+.editArea {
+  text-align: end;
+} 
+.editButton {
+  color:$red;
+  text-align: center;
+}
+
+//End of Co-Working Edit
+
+// Fix card's title alignment 
+.MuiCardHeader-content .MuiTypography-h5 {
+  text-align: center;
+}
+// Fix card's title alignment end
+
+// if the breakpoint is greater than 360px and less than or eqaul to 425px
+@include media(">phone", "<=425px") {
+  .signInRoot {
+    font-size: calc(0px + 0.5vmin);
+  }
+  .userMailList {
+    width: 40vh;
+    text-overflow: ellipsis;
+    width: calc(100% - 10px);  
+    word-wrap:break-word;
+  }
+  .signInPaper {
+    margin: 8px !important;
+  }
+
+  .App {
+    height: 95vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+  .makeStyles-others-462 {
+    margin-top: 0px !important;
+  }
+  .makeStyles-form-461 {
+    margin-top: 0px !important;
+  }
+  .dialogContent{
+    text-align: center;
+    padding: 8px 8px;
+    overflow-x: hidden;
+  }
+}
+//Small size phones
+@include media("<=phone") {
+  .dialogContent{
+    text-align: center;
+    padding: 8px 8px;
+    overflow-x: hidden;
+  }
+  .makeStyles-others-462 {
+    margin-top: 0px !important;
+  }
+  .makeStyles-form-461 {
+    margin-top: 0px !important;
+  }
+  .userMailList {
+    width: 35vh;
+    width: calc(100% - 50px);  
+  }
+  .signInPaper {
+    margin: 8px !important;
+  }
+  .form .makeStyles-submit-6 {
+    margin-top: 10px !important;
+  }
+  .checkPromotions {
+    padding: 0px !important;
+    width: calc(100% - 3em);
+  }
+  .signInRoot {
+    font-size: calc(0px + 0.5vmin);
+  }
+  .signInRoot .MuiFormControl-marginNormal {
+    margin-bottom: 0px !important;
+  }
+  .signUpRoot {
+    padding: 2px !important;
+  }
+  .signUpRoot .logo {
+    display: none;
+  }
+  .signUpRoot .title {
+    display: none;
+  }
+  .signUpRoot .MuiTypography-body1 {
+    font-size: small !important;
+  }
+  .table {
+    overflow: auto;
+  }
+}
+.cursor-ptr{
+  cursor: pointer !important;
+}
