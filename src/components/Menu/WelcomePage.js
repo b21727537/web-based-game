@@ -31,10 +31,10 @@ const useStyles = makeStyles((theme) => ({
   })(Typography); */
 
   const unityContext = new UnityContext({
-    loaderUrl: "WebGL/Build/WebGL.loader.js",
-    dataUrl: "WebGL/Build/WebGL.data",
-    frameworkUrl: "WebGL/Build/WebGL.framework.js",
-    codeUrl: "WebGL/Build/WebGL.wasm",
+    loaderUrl: "WebGL/Build/WebGL_v1.1.loader.js",
+    dataUrl: "WebGL/Build/WebGL_v1.1.data",
+    frameworkUrl: "WebGL/Build/WebGL_v1.1.framework.js",
+    codeUrl: "WebGL/Build/WebGL_v1.1.wasm",
   });
 
 
