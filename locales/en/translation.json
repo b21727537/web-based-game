@@ -1,0 +1,137 @@
+{
+    "errorProperties": {
+        "CHANGE_PASSWORD": {
+            "SET_PASSWORD_ERROR": "Password  is required!",
+            "SET_PSW_ERROR_LENGTH": "Password length must be at least 6 characters long!",
+            "SET_PASSWORD_MATCH_ERROR": "Your passwords does not match"
+        },
+        "FORGOT_PASSWORD": {
+            "SET_EMAIL_ERROR": "Email is required!",
+            "NOT_VALID_EMAIL": "Email is not in correct form"
+        },
+        "SIGN_IN": {
+            "SET_U_NAME_ERROR": "Email is required!",
+            "SET_PSW_ERROR": "Password  is required!",
+            "SET_PSW_ERROR_LENGTH": "Password length must be at least 6 characters long!"
+        },
+        "SIGN_UP": {
+            "SET_EMAIL_ERROR": "Email is required!",
+            "SET_NICK_NAME_ERROR": "Nickname is required!",
+            "SET_NICK_NAME_ERROR_LENGTH": "Nickname must be at least 5 characters long",
+            "SET_FIRST_NAME_ERROR": "Firstname is required!",
+            "SET_LAST_NAME_ERROR": "Lastname is required!",
+            "SET_PSW_ERROR": "Password is required!",
+            "SET_PSW_ERROR_2": "Confirm password is required!",
+            "SET_PSW_ERROR_LENGTH": "Password length must be at least 6 characters long!",
+            "SET_PSW_ERROR_NOT_SAME": "Your passwords does not match!"
+        },
+        "PROFILE": {
+            "SAVE_CLICKED": {
+                "SET_EMAIL_ERROR": "Email is required!",
+                "SET_NICK_NAME_ERROR": "Nickname is required!",
+                "SET_PSW_ERROR": "Password is required!",
+                "SET_PSW_ERROR_LENGTH": "Password length must be at least 6 characters long!"
+            },
+            "RETURN": {
+                "GRID": "If you don’t want to change your password, just leave this field blank."
+            },
+            "ON_SAVE_CHANGES": {
+                "SET_PSW_ERROR" : "Invalid Current Password"
+            }
+        }
+    },
+    "CompanyAvatar": {
+        "Space System": "Final Group Project"
+    },
+    "Login": {
+        "Login Now": "Your account successfully registered. Please login now."
+    },
+    "ChangePassword": {
+        "Change Pass": "Change Your Password",
+        "New Pass": "New Password",
+        "Confirm New": "Confirm New Password",
+        "Login": "Go back to login page"
+    },
+    "ForgotPassword": {
+        "Forgot": "Forgot Password",
+        "Change Pass": "Change Password",
+        "Login": "Go back to login page",
+        "Email": "Email Address"
+    },
+    "SignIn": {
+        "Sign In": "Sign In",
+        "Email": "Email Address",
+        "Sign Up": "Create New Account",
+        "Forgot": "Forgotten Password?",
+        "Remember": "Remember me",
+        "Password": "Password",
+        "Play": "Login as Anonymous"
+    },
+    "SignUpForm": {
+        "Sign Up": "Sign Up",
+        "Nickname": "Nickname",
+        "Email": "Email Address",
+        "Password": "Password",
+        "Confirm": "Confirm New Password",
+        "Want Receive": "Do you want to receive emails about our news?",
+        "Attempt": "Attempting...",
+        "Already Have": "Already Have An Account?"
+    },
+    "SignUpSuccess": {
+        "Congrats": "Congratulations.",
+        "Success": "You have successfully completed the registration process.",
+        "Redirected": "You will be redirected to login now. Please wait..."
+    },
+    "LeftDrawer": {
+        "Title": "Rocket Science Game",
+        "Profile": "Profile",
+        "Logout": "Logout",
+        "Main": "Main Page",
+        "How To": "How To Play ?",
+        "Game": "Game",
+        "Play": "Play",
+        "Register": "Register",
+        "Login": "Login"
+    },
+    "LogoutConfirmDialog": {
+        "Confirm": "Confirm Logout",
+        "Logout System": "Are you sure you want to logout from system ?",
+        "Cancel": "Cancel",
+        "Logout": "Logout"
+    },
+    "AccountProfile": {
+        "Time": "Time : ",
+        "Upload": "Upload picture",
+        "Remove": "Remove picture"
+    },
+    "Profile": {
+        "Profile Updated": "Your profile was updated!",
+        "Nickname": "Nickname",
+        "Email": "Email Address",
+        "Password": "Old Password",
+        "New Password": "New Password",
+        "Cancel": "Cancel",
+        "Save": "Save",
+        "Delete": "Delete Account"
+    },
+    "DeleteConfirmDialog": {
+        "Confirm Delete": "Confirm Delete",
+        "Delete Account": "Are you sure you want to delete this account ?",
+        "Cancel": "Cancel",
+        "Delete": "Delete"
+    },
+    "WelcomePage": {
+        "Greetings": "Greetings",
+        "Welcome" : "Welcome to our web based game application!",
+        "If": "If you know how to play the game, get right in; if not, check out the how to play page.",
+        "How": "How to play ?"
+    },
+    "HowTo": {
+        "How": "How to play the game ?",
+        "Click": "1. Click the \"play\" button in the upper left corner.",
+        "Then": "2. Then, on the left menu, click to the \"Game\" tab.",
+        "Choose": "2. Choose whether you want to play against AI or against your friends.",
+        "By": "3. By using the left mouse click, you may control your spaceship.",
+        "Avoid": "4. Avoid obstacles and enjoy!"
+    }
+}

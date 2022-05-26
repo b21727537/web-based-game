@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-based-game/static/css/main.bb496789.chunk.css",
+    "main.js": "/web-based-game/static/js/main.f9c9f3d0.chunk.js",
+    "main.js.map": "/web-based-game/static/js/main.f9c9f3d0.chunk.js.map",
+    "runtime-main.js": "/web-based-game/static/js/runtime-main.d776bf6c.js",
+    "runtime-main.js.map": "/web-based-game/static/js/runtime-main.d776bf6c.js.map",
+    "static/css/2.b578864c.chunk.css": "/web-based-game/static/css/2.b578864c.chunk.css",
+    "static/js/2.85e0074d.chunk.js": "/web-based-game/static/js/2.85e0074d.chunk.js",
+    "static/js/2.85e0074d.chunk.js.map": "/web-based-game/static/js/2.85e0074d.chunk.js.map",
+    "static/js/3.e857703e.chunk.js": "/web-based-game/static/js/3.e857703e.chunk.js",
+    "static/js/3.e857703e.chunk.js.map": "/web-based-game/static/js/3.e857703e.chunk.js.map",
+    "index.html": "/web-based-game/index.html",
+    "static/css/2.b578864c.chunk.css.map": "/web-based-game/static/css/2.b578864c.chunk.css.map",
+    "static/css/main.bb496789.chunk.css.map": "/web-based-game/static/css/main.bb496789.chunk.css.map",
+    "static/js/2.85e0074d.chunk.js.LICENSE.txt": "/web-based-game/static/js/2.85e0074d.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/web-based-game/static/media/getFetch.582d29c4.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d776bf6c.js",
+    "static/css/2.b578864c.chunk.css",
+    "static/js/2.85e0074d.chunk.js",
+    "static/css/main.bb496789.chunk.css",
+    "static/js/main.f9c9f3d0.chunk.js"
+  ]
+}

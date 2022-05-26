@@ -1,0 +1,137 @@
+{
+    "errorProperties": {
+        "CHANGE_PASSWORD": {
+            "SET_PASSWORD_ERROR": "Parola gerekli!",
+            "SET_PSW_ERROR_LENGTH": "Parola en az 6 karakterli olmak zorunda!",
+            "SET_PASSWORD_MATCH_ERROR": "Parolalar eşleşmiyor!"
+        },
+        "FORGOT_PASSWORD": {
+            "SET_EMAIL_ERROR": "Email gerekli!",
+            "NOT_VALID_EMAIL": "Email biçimi yanlış!"
+        },
+        "SIGN_IN": {
+            "SET_U_NAME_ERROR": "Email gerekli!",
+            "SET_PSW_ERROR": "Parola gerekli!",
+            "SET_PSW_ERROR_LENGTH": "Parola en az 6 karakterli olmak zorunda!"
+        },
+        "SIGN_UP": {
+            "SET_EMAIL_ERROR": "Email gerekli!",
+            "SET_NICK_NAME_ERROR": "Takma adı gerekli!",
+            "SET_NICK_NAME_ERROR_LENGTH": "Takma adı en az 5 karakter uzunluğunda olmalı",
+            "SET_FIRST_NAME_ERROR": "İsim gerekli!",
+            "SET_LAST_NAME_ERROR": "Soyisim gerekli!",
+            "SET_PSW_ERROR": "Parola gerekli!",
+            "SET_PSW_ERROR_2": "Parola gerekli!",
+            "SET_PSW_ERROR_LENGTH": "Parola en az 6 karakterli olmak zorunda!",
+            "SET_PSW_ERROR_NOT_SAME": "Parolalar eşleşmiyor!"
+        },
+        "PROFILE": {
+            "SAVE_CLICKED": {
+                "SET_EMAIL_ERROR": "Email gerekli!",
+                "SET_NICK_NAME_ERROR": "Takma adı gerekli!",
+                "SET_PSW_ERROR": "Parola gerekli",
+                "SET_PSW_ERROR_LENGTH": "Parola en az 6 karakterli olmak zorunda!"
+            },
+            "RETURN": {
+                "GRID": "Eğer parolanızı değiştirmek istemiyorsanız bu alanı boş bırakın."
+            },
+            "ON_SAVE_CHANGES": {
+                "SET_PSW_ERROR" : "Geçersiz parola"
+            }
+        }
+    },
+    "CompanyAvatar": {
+        "Space System": "Final Grup Projesi"
+    },
+    "Login": {
+        "Login Now": "Hesabınız başarıyla kaydedilmiştir. Giriş Yapabilirsiniz."
+    },
+    "ChangePassword": {
+        "Change Pass": "Parolanızı değiştirin",
+        "New Pass": "Yeni Parola",
+        "Confirm New": "Yeni Parola Tekrarı",
+        "Login": "Giriş sayfasına geri dön"
+    },
+    "ForgotPassword": {
+        "Forgot": "Parolamı Unuttum",
+        "Change Pass": "Parolayı Değiştir",
+        "Login": "Giriş sayfasına geri dön",
+        "Email": "Email Adresi"
+    },
+    "SignIn": {
+        "Sign In": "Giriş Yap",
+        "Email": "Email Adresi",
+        "Sign Up": "Yeni hesap oluştur",
+        "Forgot": "Parolanı mı unuttun?",
+        "Remember": "Beni Hatırla",
+        "Password": "Parola",
+        "Play": "Anonim Olarak Giriş Yap"
+    },
+    "SignUpForm": {
+        "Sign Up": "Kayıt Ol",
+        "Nickname": "Takma ad",
+        "Email": "Email Adresi",
+        "Password": "Parola",
+        "Confirm": "Parola Tekrar",
+        "Want Receive": "Yeni gelişmeler hakkında email almak ister misiniz?",
+        "Attempt": "Deniyor...",
+        "Already Have": "Zaten bir hesabın var mı?"
+    },
+    "SignUpSuccess": {
+        "Congrats": "Tebrikler.",
+        "Success": "Kayıt olma işlemini başarıyla gerçekleştirdiniz.",
+        "Redirected": "Giriş sayfasına yönlendiriliyorsunuz. Lütfen Bekleyin..."
+    },
+    "LeftDrawer": {
+        "Title": "Rocket Science Oyunu",
+        "Profile": "Profil",
+        "Logout": "Çıkış Yap",
+        "Main": "Ana Sayfa",
+        "How To": "Nasıl Oynanır ?",
+        "Game": "Oyun",
+        "Play": "Oyna",
+        "Register": "Kayıt Ol",
+        "Login": "Giriş Yap"
+    },
+    "LogoutConfirmDialog": {
+        "Confirm": "Çıkış Yapmayı Onayla",
+        "Logout System": "Sistemden çıkış yapmak istediğinize emin misiniz ?",
+        "Cancel": "Vazgeç",
+        "Logout": "Çıkış Yap"
+    },
+    "AccountProfile": {
+        "Time": "Saat : ",
+        "Upload": "Fotoğraf yükle",
+        "Remove": "Fotoğrafı sil"
+    },
+    "Profile": {
+        "Profile Updated": "Profiliniz güncellendi.",
+        "Nickname": "Takma Adı",
+        "Email": "Email Adresi",
+        "Password": "Eski Parola",
+        "New Password": "Yeni Parola",
+        "Cancel": "Vazgeç",
+        "Save": "Kaydet",
+        "Delete": "Hesabı Sil"
+    },
+    "DeleteConfirmDialog": {
+        "Confirm Delete": "Hesabı Silmeyi Onayla",
+        "Delete Account": "Bu hesabı silmek istedğinize emin misiniz ?",
+        "Cancel": "Vazgeç",
+        "Delete": "Sil"
+    },
+    "WelcomePage": {
+        "Greetings": "Selamlar",
+        "Welcome" : "Web tabanlı oyunumuzun sayfasına hoş geldiniz !",
+        "If": "Oyunun nasıl oynandığını biliyorsanız hemen oynayın, eğer bilmiyorsanız \"Nasıl Oynanır\" sayfasına göz atın.",
+        "How": "Nasıl Oynanır ?"
+    },
+    "HowTo": {
+        "How": "Oyun Nasıl Oynanır ?",
+        "Click": "1. Sol üst köşedeki \"Oyna\" butonuna tıklayın.",
+        "Then": "2. Sonra sol menüden \"Oyun\" sekmesine tıklayın.",
+        "Choose": "2. Oradan yapay zekaya karşı veya arkadaşlarınıza karşı oynamak istediğinizi seçin.",
+        "By": "3. Artık \"Sol Tık\" tuşunu kullanarak uzay geminizi hareket ettirebilirsiniz.",
+        "Avoid": "4. Engellere değmekten kaçının ve oyunun tadını çıkarın !"
+    }
+}
