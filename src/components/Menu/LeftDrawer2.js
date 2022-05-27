@@ -185,7 +185,7 @@ export default function LeftDrawer2(props) {
               </Hidden>
 
              <Hidden smDown>
-                <Typography style={{display: 'inline-block',maxWidth: '150px'}}>
+                <Typography style={{display: 'inline-block',maxWidth: '200px'}}>
                   <Box component="div" textOverflow="ellipsis" overflow="hidden" whiteSpace="nowrap">{props.myName}</Box>
                 </Typography>
              </Hidden>
